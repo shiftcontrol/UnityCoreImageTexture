@@ -27,7 +27,7 @@ static NSString* cacheDir = @"";
 static NSString* fileNameSeparator = @"";
 
 void SetImageCacheDir(char* uri) {
-	NSLog(@"COREIMAGETEXTURE v0.1.22");
+	NSLog(@"COREIMAGETEXTURE v0.1.23");
 	
 	cacheDir = [NSString stringWithCString:uri encoding:[NSString defaultCStringEncoding]];	
 	[cacheDir retain];
