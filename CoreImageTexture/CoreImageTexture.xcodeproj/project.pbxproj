@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */; };
+		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
+		93B1B4BD125B552700F9FF60 /* CoreImageTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93B1B4BC125B552700F9FF60 /* CoreImageTexture.mm */; };
+		93B1B4F4125B628800F9FF60 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B1B4F3125B628800F9FF60 /* QuartzCore.framework */; };
+		93B1B5BB125B690100F9FF60 /* DrawingUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B1B5BA125B690100F9FF60 /* DrawingUtilities.m */; };
+		93B1B5BF125B696B00F9FF60 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B1B5BE125B696B00F9FF60 /* Accelerate.framework */; };
+		D8BE1519088C5A8B0041FCC9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BE1518088C5A8B0041FCC9 /* Cocoa.framework */; };
+		D8BE151E088C5A940041FCC9 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BE151D088C5A940041FCC9 /* CoreMIDI.framework */; };
+		D8DE53450A69373300AE507C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8DE53440A69373300AE507C /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		8D576316048677EA00EA77CD /* CoreImageTexture.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreImageTexture.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		93B1B4BB125B552700F9FF60 /* CoreImageTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreImageTexture.h; sourceTree = "<group>"; };
+		93B1B4BC125B552700F9FF60 /* CoreImageTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CoreImageTexture.mm; sourceTree = "<group>"; };
+		93B1B4F3125B628800F9FF60 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		93B1B53D125B668500F9FF60 /* DrawingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingUtilities.h; sourceTree = "<group>"; };
+		93B1B5BA125B690100F9FF60 /* DrawingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingUtilities.m; sourceTree = "<group>"; };
+		93B1B5BE125B696B00F9FF60 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		D8BE1518088C5A8B0041FCC9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		D8BE151D088C5A940041FCC9 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		D8DE53440A69373300AE507C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D576313048677EA00EA77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */,
+				D8BE1519088C5A8B0041FCC9 /* Cocoa.framework in Frameworks */,
+				D8BE151E088C5A940041FCC9 /* CoreMIDI.framework in Frameworks */,
+				D8DE53450A69373300AE507C /* OpenGL.framework in Frameworks */,
+				93B1B4F4125B628800F9FF60 /* QuartzCore.framework in Frameworks */,
+				93B1B5BF125B696B00F9FF60 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* CoreImageTexture Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+				93B1B5BE125B696B00F9FF60 /* Accelerate.framework */,
+			);
+			name = "CoreImageTexture Plugin";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				93B1B4F3125B628800F9FF60 /* QuartzCore.framework */,
+				D8BE151D088C5A940041FCC9 /* CoreMIDI.framework */,
+				D8BE1518088C5A8B0041FCC9 /* Cocoa.framework */,
+				0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */,
+				D8DE53440A69373300AE507C /* OpenGL.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D576317048677EA00EA77CD /* Info.plist */,
+				8D5B49A704867FD3000E48DA /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				93B1B5BA125B690100F9FF60 /* DrawingUtilities.m */,
+				93B1B53D125B668500F9FF60 /* DrawingUtilities.h */,
+				93B1B4BB125B552700F9FF60 /* CoreImageTexture.h */,
+				93B1B4BC125B552700F9FF60 /* CoreImageTexture.mm */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D576316048677EA00EA77CD /* CoreImageTexture.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D57630D048677EA00EA77CD /* CoreImageTexture Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DE532B0A6934F500AE507C /* Build configuration list for PBXNativeTarget "CoreImageTexture Plugin" */;
+			buildPhases = (
+				8D57630F048677EA00EA77CD /* Resources */,
+				8D576311048677EA00EA77CD /* Sources */,
+				8D576313048677EA00EA77CD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreImageTexture Plugin";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "CoreImageTexture Plugin";
+			productReference = 8D576316048677EA00EA77CD /* CoreImageTexture.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D8DE532F0A6934F500AE507C /* Build configuration list for PBXProject "CoreImageTexture" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* CoreImageTexture Plugin */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D57630D048677EA00EA77CD /* CoreImageTexture Plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D57630F048677EA00EA77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D576311048677EA00EA77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B1B4BD125B552700F9FF60 /* CoreImageTexture.mm in Sources */,
+				93B1B5BB125B690100F9FF60 /* DrawingUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D5B49A704867FD3000E48DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8DE532C0A6934F500AE507C /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = /usr/lib/gcc/darwin/3.3;
+				PRODUCT_NAME = CoreImageTexture;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		D8DE532D0A6934F500AE507C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = /usr/lib/gcc/darwin/3.3;
+				PRODUCT_NAME = CoreImageTexture;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		D8DE532E0A6934F500AE507C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = /usr/lib/gcc/darwin/3.3;
+				PRODUCT_NAME = CoreImageTexture;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Default;
+		};
+		D8DE53300A6934F500AE507C /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		D8DE53310A6934F500AE507C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		D8DE53320A6934F500AE507C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8DE532B0A6934F500AE507C /* Build configuration list for PBXNativeTarget "CoreImageTexture Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DE532C0A6934F500AE507C /* Development */,
+				D8DE532D0A6934F500AE507C /* Deployment */,
+				D8DE532E0A6934F500AE507C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		D8DE532F0A6934F500AE507C /* Build configuration list for PBXProject "CoreImageTexture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DE53300A6934F500AE507C /* Development */,
+				D8DE53310A6934F500AE507C /* Deployment */,
+				D8DE53320A6934F500AE507C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
