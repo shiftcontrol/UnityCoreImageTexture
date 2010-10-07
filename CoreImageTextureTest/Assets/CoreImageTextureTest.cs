@@ -36,11 +36,7 @@ public class CoreImageTextureTest : MonoBehaviour {
 	  SetImageCacheDir("/tmp/");            
 	  SetFileNameSeparator("farm5.static.flickr.com/");  
 	}
-	
-	void Update () {
-	
-	}    
-	
+
 	void OnGUI() {    
 	  GUI.skin = skin; 
 	  int x = (Screen.width-400)/2;
