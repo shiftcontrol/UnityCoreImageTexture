@@ -41,17 +41,17 @@ public class CoreImageTextureTest : MonoBehaviour {
 	  GUI.skin = skin; 
 	  int x = (Screen.width-400)/2;
 	  int y = 60;                    
-	  GUI.Box(new Rect(x, y,400,84), "This texture is procedurally generated. Click '1', '2' or '3' to download external images.");
+	  GUI.Box(new Rect(x, y, 400, 84), "This texture is procedurally generated. Click '1', '2' or '3' to download external images.");
 	   
-    if (GUI.Button(new Rect(x + 10, y + 50,20,20), "1")) {
+    if (GUI.Button(new Rect(x + 10, y + 50, 20, 20), "1")) {
       LoadImageIntoTexture(tex.GetNativeTextureID(), "http://farm5.static.flickr.com/4139/4795878610_6411ac6f01_b.jpg");  
     }
     
-    if (GUI.Button(new Rect(x + 40, y + 50,20,20), "2")) {
+    if (GUI.Button(new Rect(x + 40, y + 50, 20, 20), "2")) {
       LoadImageIntoTexture(tex.GetNativeTextureID(), "http://farm5.static.flickr.com/4088/4946181705_c4e2256eb3_b.jpg");  
     } 
     
-    if (GUI.Button(new Rect(x + 70, y + 50,20,20), "3")) {
+    if (GUI.Button(new Rect(x + 70, y + 50, 20, 20), "3")) {
       LoadImageIntoTexture(tex.GetNativeTextureID(), "http://farm3.static.flickr.com/2795/4540035448_48eef63b98_b.jpg");  
     }
 	}
